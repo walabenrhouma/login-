@@ -1,0 +1,44 @@
+body{
+    background: #0e0d0d;
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #999595;
+    background: rgb(227, 237, 240);
+    box-shadow: 0 0 20px 0 rgba(230, 232, 235, 0.2), 0 5px 5px 0 rgba(29, 108, 226, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #0d66aa;
+    color: rgb(183, 183, 184);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: rgb(207, 210, 221);
+    color: #0747c7;
+    border: 1px solid #cdd5dd;
+}
